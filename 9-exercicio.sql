@@ -1,0 +1,1 @@
+-- 9.	Mostre quanto foi faturado por mês (leve em conta o valor total de cada pedido - novamente pense em GROUP BY e SUM).

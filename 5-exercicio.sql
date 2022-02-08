@@ -1,0 +1,1 @@
+-- 5.	Mostre todos os produtos com seus respectivos departamentos.

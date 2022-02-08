@@ -1,0 +1,1 @@
+-- 10.	Mostre o valor total do estoque por departamento.

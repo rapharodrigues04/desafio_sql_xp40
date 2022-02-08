@@ -1,0 +1,1 @@
+-- 7.	Mostre os dados dos pedidos, incluindo nomes dos clientes e nomes dos produtos que foram vendidos.
