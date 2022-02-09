@@ -57,3 +57,27 @@ VALUES
 	('Jurídico', 'Dpto. que valida a veracidade das decisões'),
 	('Operacional', 'Dpto. de suporte ao dpto. Comercial');
 
+INSERT INTO produto (nome , descricao, preco, estoque, link_foto, departamento_codigo)
+VALUES
+	('Mouse', 'mouse gamer', 80.0, 100, '', 4),
+	('Teclado', 'teclado macanico', 60.0, 80, '', 4),
+	('Monitor', 'monitor dell', 500.0, 50, '', 4),
+	('Pendrive', 'pendrive', 300.0, 200, '', 4),
+	('Memeria DDR4', 'memoria', 100.0, 100, '', 4),
+	('CD', 'cd', 10.0, 40, '', 7),
+	('DVD', 'dvd', 15.0, 50, '', 7),
+	('Som portátil', 'som portatil', 10.0, 200, '', 7),
+	('TV', 'tv 32', 250.0, 40, '', 7),
+	('PS4', 'ps4', 2000.0, 10, '', 7),
+	('XBOX', 'xbox', 1800.0, 10, '', 7),
+	('Mouse', 'mouse gamer', 80.0, 10, '', 1),
+	('Teclado', 'teclado macanico', 60.0, 20, '', 1),
+	('Monitor', 'monitor dell', 500.0, 15, '', 1),
+	('Pendrive', 'pendrive', 300.0, 30, '', 1),
+	('Memeria DDR4', 'memoria', 100.0, 20, '', 1),
+	('CD', 'cd', 10.0, 10, '', 5),
+	('DVD', 'dvd', 15.0, 15, '', 5),
+	('Som portátil', 'som portatil', 10.0, 12, '', 5),
+	('TV', 'tv 32', 250.0, 10, '', 5),
+	('PS4', 'ps4', 2000.0, 3, '', 5),
+	('XBOX', 'xbox', 1800.0, 4, '', 5);
