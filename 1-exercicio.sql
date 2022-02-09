@@ -70,30 +70,31 @@ VALUES
 	('TV', 'tv 32', 250.0, 40, '', 7),
 	('PS4', 'ps4', 2000.0, 10, '', 7),
 	('XBOX', 'xbox', 1800.0, 10, '', 7),
-	('Mouse', 'mouse gamer', 80.0, 10, '', 1),
-	('Teclado', 'teclado macanico', 60.0, 20, '', 1),
-	('Monitor', 'monitor dell', 500.0, 15, '', 1),
-	('Pendrive', 'pendrive', 300.0, 30, '', 1),
-	('Memeria DDR4', 'memoria', 100.0, 20, '', 1),
-	('CD', 'cd', 10.0, 10, '', 5),
-	('DVD', 'dvd', 15.0, 15, '', 5),
-	('Som portátil', 'som portatil', 10.0, 12, '', 5),
-	('TV', 'tv 32', 250.0, 10, '', 5),
-	('PS4', 'ps4', 2000.0, 3, '', 5),
-	('XBOX', 'xbox', 1800.0, 4, '', 5);
+	('Pilha', 'pilha', 10.0, 10, '', 1),
+	('Relógio', 'relogio', 60.0, 20, '', 1),
+	('Bateria', 'bateria', 75.0, 15, '', 1),
+	('Capa', 'capa', 5.0, 30, '', 1),
+	('Mouse_Ped', 'mouse_ped', 90.0, 20, '', 1),
+	('Fone', 'fone', 45.0, 10, '', 5),
+	('Pelicula', 'pelicula', 15.0, 15, '', 5),
+	('Caneta digital', 'caneta digital', 10.0, 12, '', 5),
+	('Carregador', 'carregador', 95.0, 10, '', 5),
+	('Nobreak', 'nobreak', 2000.0, 3, '', 5),
+	('Adaptador', 'adaptador', 800.0, 4, '', 5);
 
-	INSERT INTO pedido (numero, status, data_pedido, valor_bruto, desconto, valor_final, cliente_id)
+INSERT INTO pedido (numero, status, data_pedido, valor_bruto, desconto, valor_final, cliente_id)
 VALUES
-	(null,'v', '2022-01-09', 1000, 10, 990,1),
-	(NULL,'v', '2022-02-09', 2000, 10, 1990,1),
-	(NULL,'v', '2022-03-09', 3000, 10, 2990,2),
-	(NULL,'F', '2022-01-19', 4000, 10, 3990,3),
-	(NULL,'F', '2022-01-04', 5000, 10, 4990,3);
+	(null,'v', '2022-01-09', 1000, 10, 990, 1),
+	(NULL,'v', '2022-02-09', 2000, 10, 1990, 1),
+	(NULL,'v', '2022-03-09', 3000, 10, 2990, 2),
+	(NULL,'F', '2022-01-19', 4000, 10, 3990, 3),
+	(NULL,'F', '2022-01-04', 5000, 10, 4990, 3);
 
-	INSERT INTO item_pedido (num_sequencial, quantidade, valor_unitario, valor_total, produto_codigo, pedido_numero)
+INSERT INTO item_pedido (num_sequencial, quantidade, valor_unitario, valor_total, produto_codigo, pedido_numero)
 VALUES
-	(null, 2, 100, 200, 1,1),
-	(null, 3,100, 300, 2,2),
-	(null, 4, 100, 400, 3,3),
+	(null, 2, 100, 200, 1, 1),
+	(null, 3, 100, 300, 2, 2),
+	(null, 4, 100, 400, 3, 3),
 	(null, 5, 100, 500, 3, 4),
-	(null, 2, 100, 200, 1,5);
+	(null, 2, 100, 200, 1, 5);
+	
