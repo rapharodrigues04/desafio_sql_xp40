@@ -1,37 +1,4 @@
 -- 5.	Mostre todos os produtos com seus respectivos departamentos.
-select * from produto inner join departamento on produto.departamento_codigo = departamento.codigo;
+select * from produto 
+    inner join departamento on produto.departamento_codigo = departamento.codigo;
 
--- codigo	nome	descricao	preco	estoque	link_foto	departamento_codigo	codigo	nome	descricao
--- 12	Mouse	mouse gamer	80	10		1	1	Administrativo	Dpto. que atende a todos os demais
--- 13	Teclado	teclado macanico	60	20		1	1	Administrativo	Dpto. que atende a todos os demais
--- 14	Monitor	monitor dell	500	15		1	1	Administrativo	Dpto. que atende a todos os demais
--- 15	Pendrive	pendrive	300	30		1	1	Administrativo	Dpto. que atende a todos os demais
--- 16	Memeria DDR4	memoria	100	20		1	1	Administrativo	Dpto. que atende a todos os demais
--- 23	Pilha	pilha	10	10		1	1	Administrativo	Dpto. que atende a todos os demais
--- 24	RelÃ³gio	relogio	60	20		1	1	Administrativo	Dpto. que atende a todos os demais
--- 25	Bateria	bateria	75	15		1	1	Administrativo	Dpto. que atende a todos os demais
--- 26	Capa	capa	5	30		1	1	Administrativo	Dpto. que atende a todos os demais
--- 27	Mouse_Ped	mouse_ped	90	20		1	1	Administrativo	Dpto. que atende a todos os demais
--- 1	Mouse	mouse gamer	80	100		4	4	Comercial	Dpto. que tem o foco em vendas
--- 2	Teclado	teclado macanico	60	80		4	4	Comercial	Dpto. que tem o foco em vendas
--- 3	Monitor	monitor dell	500	50		4	4	Comercial	Dpto. que tem o foco em vendas
--- 4	Pendrive	pendrive	300	200		4	4	Comercial	Dpto. que tem o foco em vendas
--- 5	Memeria DDR4	memoria	100	100		4	4	Comercial	Dpto. que tem o foco em vendas
--- 17	CD	cd	10	10		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 18	DVD	dvd	15	15		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 19	Som portÃ¡til	som portatil	10	12		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 20	TV	tv 32	250	10		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 21	PS4	ps4	2000	3		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 22	XBOX	xbox	1800	4		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 28	Fone	fone	45	10		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 29	Pelicula	pelicula	15	15		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 30	Caneta digital	caneta digital	10	12		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 31	Carregador	carregador	95	10		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 32	Nobreak	nobreak	2000	3		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 33	Adaptador	adaptador	800	4		5	5	Marketing	Dpto. que aumenta a visibilidade nas mÃ­dias
--- 6	CD	cd	10	40		7	7	Operacional	Dpto. de suporte ao dpto. Comercial
--- 7	DVD	dvd	15	50		7	7	Operacional	Dpto. de suporte ao dpto. Comercial
--- 8	Som portÃ¡til	som portatil	10	200		7	7	Operacional	Dpto. de suporte ao dpto. Comercial
--- 9	TV	tv 32	250	40		7	7	Operacional	Dpto. de suporte ao dpto. Comercial
--- 10	PS4	ps4	2000	10		7	7	Operacional	Dpto. de suporte ao dpto. Comercial
--- 11	XBOX	xbox	1800	10		7	7	Operacional	Dpto. de suporte ao dpto. Comercial
